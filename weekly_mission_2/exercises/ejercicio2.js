@@ -73,10 +73,15 @@ explorers.forEach(element => {
 
 // Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
 console.log("Crea una nueva lista con las listas de stacks de cada explorer, usa MAP");
-explorers.forEach(element => {
-  let esplorerStack =  explorers.map(function(explorer){ return explorer.stack});
-  console.log(esplorerStack);
-});
+// explorers.forEach(element => {
+//   let esplorerStack =  explorers.map(function(explorer){ return explorer.stack});
+//   console.log(esplorerStack);
+// });
+
+let esplorerStack =  explorers.map(function(explorer){ return explorer.stack});
+console.log(esplorerStack);
+
+
 
  // Obtén la lista de explorers que tengan en su stack "js", usa FILTER (para validar un elemento en un lista se usa el método includes)
 console.log("Obtén la lista de explorers que tengan en su stack js");
